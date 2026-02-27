@@ -248,14 +248,9 @@ Because “confidence” that’s just vibes is worthless:
 
 * **Calibration metric**: **ECE (Expected Calibration Error)** (binary at minimum)
 
-**Suggested single final score (simple and fair):**
+**single final score:**
 
 * `FinalScore = 0.6 * Binary_F1 + 0.4 * Type_MacroF1`
-* Optional small penalty for bad confidence:
-
-  * `FinalScore = FinalScore - 0.05 * ECE`
-
-(You can tweak weights, but pick them once and don’t change mid-hackathon unless you enjoy riots.)
 
 ---
 
@@ -269,7 +264,7 @@ Because “confidence” that’s just vibes is worthless:
 
 ### Clean code & reproducibility
 
-* One-command run for training/inference (or documented steps)
+* One-command run for training/inference
 * Clear folder structure, requirements/environment file
 * No hardcoded paths, no mystery constants without comments
 * Reproducible splits + fixed random seeds (where relevant)
