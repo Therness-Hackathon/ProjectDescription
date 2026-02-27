@@ -1,4 +1,4 @@
-# Intel Robotic Welding Dataset Description
+# Dataset Description
 
 ## Overview
 
