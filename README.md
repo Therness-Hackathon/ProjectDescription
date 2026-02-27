@@ -216,7 +216,7 @@ Submission rules:
 
 * Exactly `90` rows (one row per sample in `test_data_manifest.csv`)
 * `sample_id` must match exactly (`sample_0001` ... `sample_0090`), with no duplicates
-* `pred_label_code` must be one of: `00`, `01`, `02`, `04`, `06`, `11`
+* `pred_label_code` must be one of: `00`, `01`, `02`, `06`, `07`, `08`, `11`
 * `p_defect` must be numeric in `[0,1]`
 
 Scoring interpretation:
