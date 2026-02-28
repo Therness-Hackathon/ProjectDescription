@@ -242,12 +242,6 @@ Use these:
 * **Per-class Precision/Recall/F1**
 * **Weighted F1** (secondary)
 
-### 3) Confidence quality (recommended to include)
-
-Because “confidence” that’s just vibes is worthless:
-
-* **Calibration metric**: **ECE (Expected Calibration Error)** (binary at minimum)
-
 **single final score:**
 
 * `FinalScore = 0.6 * Binary_F1 + 0.4 * Type_MacroF1`
